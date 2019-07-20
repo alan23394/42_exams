@@ -1,0 +1,124 @@
+= Host-specific information ====================================================
+$> hostname; uname -msr
+e1z2r6p9.42.us.org
+Darwin 15.6.0 x86_64
+$> date
+Fri Aug 11 19:16:18 PDT 2017
+$> gcc --version
+Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/c++/4.2.1
+Apple LLVM version 8.0.0 (clang-800.0.38)
+Target: x86_64-apple-darwin15.6.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+$> clang --version
+Apple LLVM version 8.0.0 (clang-800.0.38)
+Target: x86_64-apple-darwin15.6.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: auto-exam/2017/piscine-c-exam00/exam_20170812/abarnett
+
+= Git history ==================================================================
+$> git -C /var/folders/pp/dsxgfnf14pz5gdrk0_0sr9mw0000gp/T/tmpb_VaG3/user log --pretty='%H - %an, %ad : %s'
+f9f9d7a8cfcd56d27014d3883f5c08d76dba2796 - Exam 42, Fri Aug 11 19:15:53 2017 -0700 : this is shorter than my day03/ex08 lol
+a2c38d9acc41481a7cc3f15caab82e0e5b2b2373 - Exam 42, Fri Aug 11 19:02:15 2017 -0700 : please don't need a newline
+a7e6bc5ab330f17c74287826b8c2d7b5984d2623 - Exam 42, Fri Aug 11 18:57:24 2017 -0700 : please
+cb4a2e8d04b05a484475f727562a19542357459b - Exam 42, Fri Aug 11 18:33:48 2017 -0700 : hope this works
+2ce5d46cc2948dc00e47f2f5d0c70e4cb73d3abe - Exam 42, Fri Aug 11 18:25:02 2017 -0700 : take two on number three
+21aca12c9a12a00b08ebccac22c048bf8f94bf4d - Exam 42, Fri Aug 11 18:21:41 2017 -0700 : finished 3
+f045f1caddd41e816ac641cb83896be256098d51 - Exam 42, Fri Aug 11 18:13:23 2017 -0700 : finished two
+89b99892273044376bf8856cfa94bfefa5b5668f - Exam 42, Fri Aug 11 18:09:09 2017 -0700 : finished one
+ 
+= Collected files ==========================================
+$> ls -lAR /var/folders/pp/dsxgfnf14pz5gdrk0_0sr9mw0000gp/T/tmpb_VaG3/user
+total 8
+-rw-r--r--  1 deepthought  deepthought  2124 Aug 11 19:16 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought   102 Aug 11 19:16 ft_atoi
+drwxr-xr-x  4 deepthought  deepthought   136 Aug 11 19:16 ft_countdown
+drwxr-xr-x  3 deepthought  deepthought   102 Aug 11 19:16 ft_putstr
+drwxr-xr-x  3 deepthought  deepthought   102 Aug 11 19:16 ft_strcmp
+drwxr-xr-x  3 deepthought  deepthought   102 Aug 11 19:16 ft_strrev
+drwxr-xr-x  4 deepthought  deepthought   136 Aug 11 19:16 maff_alpha
+drwxr-xr-x  3 deepthought  deepthought   102 Aug 11 19:16 maff_revalpha
+drwxr-xr-x  4 deepthought  deepthought   136 Aug 11 19:16 only_a
+
+/var/folders/pp/dsxgfnf14pz5gdrk0_0sr9mw0000gp/T/tmpb_VaG3/user/ft_atoi:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1156 Aug 11 19:16 ft_atoi.c
+
+/var/folders/pp/dsxgfnf14pz5gdrk0_0sr9mw0000gp/T/tmpb_VaG3/user/ft_countdown:
+total 32
+-rwxr-xr-x  1 deepthought  deepthought  8432 Aug 11 19:16 a.out
+-rw-r--r--  1 deepthought  deepthought  1049 Aug 11 19:16 ft_countdown.c
+
+/var/folders/pp/dsxgfnf14pz5gdrk0_0sr9mw0000gp/T/tmpb_VaG3/user/ft_putstr:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1036 Aug 11 19:16 ft_putstr.c
+
+/var/folders/pp/dsxgfnf14pz5gdrk0_0sr9mw0000gp/T/tmpb_VaG3/user/ft_strcmp:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1175 Aug 11 19:16 ft_strcmp.c
+
+/var/folders/pp/dsxgfnf14pz5gdrk0_0sr9mw0000gp/T/tmpb_VaG3/user/ft_strrev:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1271 Aug 11 19:16 ft_strrev.c
+
+/var/folders/pp/dsxgfnf14pz5gdrk0_0sr9mw0000gp/T/tmpb_VaG3/user/maff_alpha:
+total 32
+-rwxr-xr-x  1 deepthought  deepthought  8432 Aug 11 19:16 a.out
+-rw-r--r--  1 deepthought  deepthought  1195 Aug 11 19:16 maff_alpha.c
+
+/var/folders/pp/dsxgfnf14pz5gdrk0_0sr9mw0000gp/T/tmpb_VaG3/user/maff_revalpha:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1150 Aug 11 19:16 maff_revalpha.c
+
+/var/folders/pp/dsxgfnf14pz5gdrk0_0sr9mw0000gp/T/tmpb_VaG3/user/only_a:
+total 32
+-rwxr-xr-x  1 deepthought  deepthought  8432 Aug 11 19:16 a.out
+-rw-r--r--  1 deepthought  deepthought   974 Aug 11 19:16 only_a.c
+ 
+= ft_atoi ======================================================================
+$> gcc -Wextra -Wall -Werror main.c ft_atoi.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./7688we9g167vx8gtdjiuy09g 
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./lwl0ek4ltqbdpe9jwvxoeypl "21" "2313"
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./ptudvn1vyk7cx39ld62xz5hd 2147483647
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./y8u01to2wyerpsvpg67wqvkh -2147483648
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+= Test 5 ===================================================
+$> ./8l3y59yml5cp89iauh00ktl8 0
+$> diff -U 3 user_output_test5 test5.output | cat -e
+
+Diff OK :D
+= Test 6 ===================================================
+$> ./0xf29gpesx7476qikciwyjof 12211t11
+$> diff -U 3 user_output_test6 test6.output | cat -e
+--- user_output_test6	2017-08-11 19:16:20.000000000 -0700$
++++ test6.output	2017-08-11 19:16:20.000000000 -0700$
+@@ -1 +1 @@$
+-12217811$
+\ No newline at end of file$
++12211$
+\ No newline at end of file$
+
+Diff KO :(
+Grade: 0
+
+= Final grade: 0 ===============================================================
