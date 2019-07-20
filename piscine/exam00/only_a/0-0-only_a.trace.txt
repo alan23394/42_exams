@@ -1,0 +1,48 @@
+= Host-specific information ====================================================
+$> hostname; uname -msr
+e1z2r7p48.42.us.org
+Darwin 15.6.0 x86_64
+$> date
+Fri Aug 11 18:09:36 PDT 2017
+$> gcc --version
+Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/c++/4.2.1
+Apple LLVM version 8.0.0 (clang-800.0.38)
+Target: x86_64-apple-darwin15.6.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+$> clang --version
+Apple LLVM version 8.0.0 (clang-800.0.38)
+Target: x86_64-apple-darwin15.6.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: auto-exam/2017/piscine-c-exam00/exam_20170812/abarnett
+
+= Git history ==================================================================
+$> git -C /var/folders/66/1w6_vq051_zc34tvhd3kwbzm0000gp/T/tmpjLWxeK/user log --pretty='%H - %an, %ad : %s'
+89b99892273044376bf8856cfa94bfefa5b5668f - Exam 42, Fri Aug 11 18:09:09 2017 -0700 : finished one
+ 
+= Collected files ==========================================
+$> ls -lAR /var/folders/66/1w6_vq051_zc34tvhd3kwbzm0000gp/T/tmpjLWxeK/user
+total 8
+-rw-r--r--  1 deepthought  deepthought  263 Aug 11 18:09 __GIT_HISTORY
+drwxr-xr-x  4 deepthought  deepthought  136 Aug 11 18:09 only_a
+
+/var/folders/66/1w6_vq051_zc34tvhd3kwbzm0000gp/T/tmpjLWxeK/user/only_a:
+total 32
+-rwxr-xr-x  1 deepthought  deepthought  8432 Aug 11 18:09 a.out
+-rw-r--r--  1 deepthought  deepthought   974 Aug 11 18:09 only_a.c
+ 
+= only_a =======================================================================
+$> gcc -Wextra -Wall -Werror only_a.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./zxuhai4z50pkqzo56v7n66r5 
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= Final grade: 1 ===============================================================
