@@ -6,7 +6,7 @@
 /*   By: exam <marvin@42.fr>                        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/08/11 18:11:13 by exam              #+#    #+#             */
-/*   Updated: 2019/07/20 04:17:39 by alan             ###   ########.fr       */
+/*   Updated: 2019/07/20 06:46:21 by alan             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,7 @@
 
 /*
 ** Notes from the future:
+**
 ** Just like with only_a, we don't actually need to programmatically write
 ** characters. You can just write a string.
 ** Remember that the third argument is the number of characters to write.

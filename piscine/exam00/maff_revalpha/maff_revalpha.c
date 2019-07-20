@@ -6,7 +6,7 @@
 /*   By: exam <marvin@42.fr>                        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/08/11 18:15:20 by exam              #+#    #+#             */
-/*   Updated: 2019/07/20 04:33:29 by alan             ###   ########.fr       */
+/*   Updated: 2019/07/20 06:48:12 by alan             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,10 +14,13 @@
 
 /*
 ** Notes from the future:
+**
 ** This only failed because it doesn't have a newline at the end. It's also
 ** needlessly complex, because it's only asking me to print a string.
+**
 ** How I'd do it now:
 ** write(1, "zYxWvUtSrQpOnMlKjIhGfEdCbA\n", 27);
+**
 ** How I'd do it without just writing a string:
 ** int	main()
 ** {

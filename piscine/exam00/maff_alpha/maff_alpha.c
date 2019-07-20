@@ -6,7 +6,7 @@
 /*   By: exam <marvin@42.fr>                        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/08/11 18:15:20 by exam              #+#    #+#             */
-/*   Updated: 2019/07/20 04:41:00 by alan             ###   ########.fr       */
+/*   Updated: 2019/07/20 06:48:23 by alan             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,7 @@
 
 /*
 ** Notes from the future:
+**
 ** See maff_revalpha, it's basically the same problem. This one passed and that
 ** one failed because I remembered the newline for this one, and for that one I
 ** did not.
