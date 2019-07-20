@@ -1,0 +1,72 @@
+= Host-specific information ====================================================
+$> hostname; uname -msr
+e1z2r4p9.42.us.org
+Darwin 15.6.0 x86_64
+$> date
+Fri Aug 11 18:34:03 PDT 2017
+$> gcc --version
+Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/c++/4.2.1
+Apple LLVM version 8.0.0 (clang-800.0.38)
+Target: x86_64-apple-darwin15.6.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+$> clang --version
+Apple LLVM version 8.0.0 (clang-800.0.38)
+Target: x86_64-apple-darwin15.6.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: auto-exam/2017/piscine-c-exam00/exam_20170812/abarnett
+
+= Git history ==================================================================
+$> git -C /var/folders/42/8lzs01611ss_3h9b98dtp9340000gp/T/tmpWVvB6m/user log --pretty='%H - %an, %ad : %s'
+cb4a2e8d04b05a484475f727562a19542357459b - Exam 42, Fri Aug 11 18:33:48 2017 -0700 : hope this works
+2ce5d46cc2948dc00e47f2f5d0c70e4cb73d3abe - Exam 42, Fri Aug 11 18:25:02 2017 -0700 : take two on number three
+21aca12c9a12a00b08ebccac22c048bf8f94bf4d - Exam 42, Fri Aug 11 18:21:41 2017 -0700 : finished 3
+f045f1caddd41e816ac641cb83896be256098d51 - Exam 42, Fri Aug 11 18:13:23 2017 -0700 : finished two
+89b99892273044376bf8856cfa94bfefa5b5668f - Exam 42, Fri Aug 11 18:09:09 2017 -0700 : finished one
+ 
+= Collected files ==========================================
+$> ls -lAR /var/folders/42/8lzs01611ss_3h9b98dtp9340000gp/T/tmpWVvB6m/user
+total 8
+-rw-r--r--  1 deepthought  deepthought  1373 Aug 11 18:34 __GIT_HISTORY
+drwxr-xr-x  4 deepthought  deepthought   136 Aug 11 18:34 ft_countdown
+drwxr-xr-x  3 deepthought  deepthought   102 Aug 11 18:34 ft_strrev
+drwxr-xr-x  4 deepthought  deepthought   136 Aug 11 18:34 maff_alpha
+drwxr-xr-x  3 deepthought  deepthought   102 Aug 11 18:34 maff_revalpha
+drwxr-xr-x  4 deepthought  deepthought   136 Aug 11 18:34 only_a
+
+/var/folders/42/8lzs01611ss_3h9b98dtp9340000gp/T/tmpWVvB6m/user/ft_countdown:
+total 32
+-rwxr-xr-x  1 deepthought  deepthought  8432 Aug 11 18:34 a.out
+-rw-r--r--  1 deepthought  deepthought  1049 Aug 11 18:34 ft_countdown.c
+
+/var/folders/42/8lzs01611ss_3h9b98dtp9340000gp/T/tmpWVvB6m/user/ft_strrev:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1271 Aug 11 18:34 ft_strrev.c
+
+/var/folders/42/8lzs01611ss_3h9b98dtp9340000gp/T/tmpWVvB6m/user/maff_alpha:
+total 32
+-rwxr-xr-x  1 deepthought  deepthought  8432 Aug 11 18:34 a.out
+-rw-r--r--  1 deepthought  deepthought  1195 Aug 11 18:34 maff_alpha.c
+
+/var/folders/42/8lzs01611ss_3h9b98dtp9340000gp/T/tmpWVvB6m/user/maff_revalpha:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1150 Aug 11 18:34 maff_revalpha.c
+
+/var/folders/42/8lzs01611ss_3h9b98dtp9340000gp/T/tmpWVvB6m/user/only_a:
+total 32
+-rwxr-xr-x  1 deepthought  deepthought  8432 Aug 11 18:34 a.out
+-rw-r--r--  1 deepthought  deepthought   974 Aug 11 18:34 only_a.c
+ 
+= ft_strrev ====================================================================
+$> gcc -Wextra -Wall -Werror ft_strrev.c main.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./3avnam5rle3ym6quqg5g97jw ""
+Command './3avnam5rle3ym6quqg5g97jw ""' timed out after 10 seconds
+Grade: 0
+
+= Final grade: 0 ===============================================================
